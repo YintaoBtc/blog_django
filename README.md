@@ -1,4 +1,4 @@
-# blog_django
-Blog Django From Scratch 
+# Blog Django From Scratch 
+
 
 Blog creado en django para practicar. Ejercicios del libro Django for beginners. 

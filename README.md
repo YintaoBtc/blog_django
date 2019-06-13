@@ -13,16 +13,18 @@ Blog creado en django para practicar. Ejercicios del libro Django for beginners.
 Requisitos:
 - Python 3.7
 
-`mkdir blog`
-`cd blog`
-`git clone https://github.com/YintaoBtc/blog_django.git blog`
-`cd blog`
-`pipenv shell`
-`pip install -r requirements.txt`
-`python manage.py makemigrations`
-`python manage.py migrate`
-`python manage.py createsuperuser`
-`python manage.py runserver`
+```
+mkdir blog
+cd blog
+git clone https://github.com/YintaoBtc/blog_django.git blog
+cd blog
+pipenv shell
+pip install -r requirements.txt
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+```
 
 Con esto la web deberia estar funcionando en local. Para acceder al panel de admin con los datos del superusuario:
 http://127.0.0.1:8000/admin

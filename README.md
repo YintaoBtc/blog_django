@@ -18,15 +18,21 @@ mkdir blog
 cd blog
 git clone https://github.com/YintaoBtc/blog_django.git blog
 cd blog
+
 pipenv shell
 pip install -r requirements.txt
+
 python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 ```
 
-Con esto la web deberia estar funcionando en local. Para acceder al panel de admin con los datos del superusuario:
+Con esto la web deberia estar funcionando en local. Para acceder a la web principal:
+http://127.0.0.1:8000
+
+Para acceder al panel de admin con los datos del superusuario:
 http://127.0.0.1:8000/admin
+
 
 
